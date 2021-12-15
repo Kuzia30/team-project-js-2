@@ -1,0 +1,49 @@
+body {
+  font-family: var(--main-font);
+
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+}
+
+a {
+  text-decoration: none; /* Убираем подчеркивание */
+}
+
+.link {
+  text-decoration: none;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}

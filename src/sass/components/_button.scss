@@ -1,0 +1,74 @@
+.library__btn {
+  width: 129px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  text-transform: uppercase;
+
+  color: var(--static-white-color);
+  background-color: inherit;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    width: 136px;
+  }
+
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: #ff6b08;
+  }
+}
+
+.pop-up-buttons {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (min-width: 1024px) {
+    justify-content: start;
+    &__items:first-child {
+      margin-right: 15px;
+    }
+  }
+}
+
+.pop-up-btn {
+  width: 112px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  border: 1px solid var(--primary-text-color);
+  border-radius: 5px;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    width: 125px;
+  }
+  @media screen and (min-width: 1024px) {
+    width: 136px;
+  }
+
+  transition: all 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border-color: #ff6b08;
+  }
+}
+
+.current-btn {
+  border: none;
+  background-color: var(--accent-color);
+  color: var(--static-white-color);
+}

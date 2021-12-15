@@ -1,0 +1,11 @@
+import './sass/main.scss';
+import './js/showFilms';
+import './js/modal-about-us.js';
+import './js/localStorage';
+import './js/button-library';
+import './js/loader';
+import 'animate.css';
+import './js/themeSwitcher';
+import './js/render-one-movie';
+import './js/details';
+import './js/button-back-to-top'

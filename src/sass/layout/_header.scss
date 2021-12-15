@@ -1,0 +1,30 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-top: 41px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu__link {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+
+  color: var(--static-white-color);
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 39px;
+}
+
+.menu__item--current::after {
+  content: '';
+  display: block;
+  height: 3px;
+  background: var(--accent-color);
+}
